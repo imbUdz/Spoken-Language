@@ -25,8 +25,13 @@ Total size of the data is about 15GB.
 ### Processes
 
 1. Download the .zip file from the Kaggle page above.
-2. Unzip both the <train> and <test> folders into ```<work_directory>/data```.
-3. Run the ```Spoken Language.ipynb``` notebook (require Anaconda, Jupyter IPython notebook)
+2. Unzip both the <train> and <test> folders into ```<work_directory>/data/```.
+3. Install the latest Anaconda
+4. Install required libraries listed in the IPython notebook.
+5. Run Jupyter Notebook
+6. Run the ```Spoken Language.ipynb``` notebook
+    
+The extracted features and labels are included in the file <language_feat.npy> and <language_label.npy> and can be loaded directly instead of running the feature extraction function again.
     
 ### Approach
 
